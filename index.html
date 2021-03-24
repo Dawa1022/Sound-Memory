@@ -19,13 +19,16 @@
 
     <p>
       Let's find out how good your memory is when asscoiated with sound!
+      <br>
+      <br>
+      3 mistakes = Game Over!
     </p>
 
     <button id="startBtn" onclick="startGame()">
       Start
     </button>
     <button class="hidden" id="stopBtn" onclick="stopGame()">
-      End
+      Stop
     </button>
 
     <div id="gameButtonArea">
@@ -47,6 +50,8 @@
         onmousedown="startTone(3)"
         onmouseup="stopTone()"
       ></button>
+    </div>
+    <div id="gameButtonArea">
       <button
         id="button4"
         onclick="guess(4)"

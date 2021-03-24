@@ -2,20 +2,29 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-  background-color: slategrey;
+  background-color: #b0c4de;
   color: white;
+  margin: 0 2em;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
-  font-family: verdana, arial, sans-serif;
+  color: #4169e1;
+  font-family: cursive;
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
+}
+p {
+  font-size: 25px;
+  color: #1d3557;
 }
 
 button {
   padding: 10px;
-  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 40%;
 }
 
 #gameButtonArea > button {

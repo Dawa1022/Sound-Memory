@@ -1,4 +1,4 @@
-// global constants
+//Global constants
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 500; //how long to wait before starting playback of the clue sequence
 
@@ -10,6 +10,7 @@ var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5;  //must be between 0.0 and 1.0
 var guessCounter = 0;
+var mistakes = 0;
 
 function getRandom() {
   for (var n = 0; n<8; n++) {
@@ -22,6 +23,7 @@ function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
+    mistakes = 2;
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
@@ -34,6 +36,10 @@ function stopGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = false;
+    //empty the random pattern array
+    while (pattern.length > 0) {
+      pattern.pop()
+    }
   // swap the Stop and Start buttons
   document.getElementById("stopBtn").classList.add("hidden");
   document.getElementById("startBtn").classList.remove("hidden");
@@ -41,12 +47,12 @@ function stopGame(){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2,
-  5: 502.6,
-  6: 529
+  1: 293.7,
+  2: 370,
+  3: 440,
+  4: 523.3,
+  5: 622.3,
+  6: 739.9
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
@@ -99,7 +105,7 @@ function playClueSequence(){
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
-    delay += clueHoldTime - 200
+    delay += clueHoldTime - 290
     delay += cluePauseTime;
   }
 }
@@ -126,20 +132,30 @@ function guess(btn){
       if(progress == pattern.length - 1){
         //GAME OVER: WIN!
         winGame();
-      }else{
+      }
+      else{
         //Pattern correct. Add next segment
         progress++;
         playClueSequence();
       }
-    }else{
+    }
+    else{
       //so far so good... check the next guess
       guessCounter++;
     }
-  }else{
+  }
+  else{
     //Guess was incorrect
+    //Allow two mistakes
+    if (mistakes != 0) {
+      mistakes--;
+    }
+    else {
     //GAME OVER: LOSE!
     loseGame();
+    }
   }
+
 }    
 
 
