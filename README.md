@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-### This GIF shows the completion of the game
+#### This GIF shows the completion of the game
 <img src="img/game_complete.gif">
 
 ## Reflection Questions
