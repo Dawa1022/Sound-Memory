@@ -39,7 +39,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+
+### This GIF shows the completion of the game
 <img src="img/game_complete.gif">
 
 ## Reflection Questions
