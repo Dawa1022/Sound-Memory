@@ -40,6 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 ![](your-link-here)
+<img src="img/game_complete.gif">
 
 ## Reflection Questions
 
