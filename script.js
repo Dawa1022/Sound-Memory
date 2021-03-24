@@ -37,8 +37,8 @@ function stopGame(){
     progress = 0;
     gamePlaying = false;
     //empty the random pattern array
-    while (pattern.length > 0) {
-      pattern.pop()
+    if(pattern.length > 0) {
+      pattern = [];
     }
   // swap the Stop and Start buttons
   document.getElementById("stopBtn").classList.add("hidden");
