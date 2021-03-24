@@ -7,7 +7,7 @@ Submitted by: **Dawa Sherpa**
 Time spent for required functionality: **1 hours and 30 minutes** spent in total
 Time spent for additional feautureL **3 hours** spent in total
 
-Link to project: (https://glitch.com/edit/#!/sound-memory?path=index.html%3A1%3A0)
+Link to project: (https://sound-memory.glitch.me)
 
 ## Required Functionality
 
