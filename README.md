@@ -4,9 +4,10 @@
 
 Submitted by: **Dawa Sherpa**
 
-Time spent: **1 hours and 30 minutes** hours spent in total
+Time spent for required functionality: **1 hours and 30 minutes** spent in total
+Time spent for additional feautureL **3 hours** spent in total
 
-Link to project: (https://glitch.com/edit/#!/sound-memory?path=README.md%3A1%3A0)
+Link to project: (https://glitch.com/edit/#!/sound-memory?path=index.html%3A1%3A0)
 
 ## Required Functionality
 
@@ -28,13 +29,6 @@ The following **optional** features are implemented:
 - [x] Playback speeds up on each turn
 - [x] Computer picks a different pattern each time the game is played
 - [x] Player only loses after 3 mistakes (instead of on the first mistake)
-- [ ] Game button appearance change goes beyond color (e.g. add an image)
-- [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-- [ ] User has a limited amount of time to enter their guess on each turn
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough
 
@@ -42,10 +36,8 @@ Here's a walkthrough of implemented user stories:
 <ul>
    <li> This GIF shows that the player wins game after succesfully guessing all the patterns</li>
       <img src="img/game_complete.gif">
-      <br>
    <li> This GIF shows that the player loses after 3 mistakes</li>
       <img src="img/game_lost.gif">
-      <br>
    <li> This GIF shows that the computer picks a different pattern each time the game is played</li>
       <img src="img/random_pattern.gif">
    </ul>
@@ -53,7 +45,13 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-   [YOUR ANSWER HERE]
+
+ - The following resources were used for the completion of this project:
+   <ul>
+   <li>https://www.w3schools.com/</li>
+   <li>https://colours.neilorangepeel.com/</li>
+   <li>https://coolors.co/</li>
+   </ul>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
    [YOUR ANSWER HERE]
