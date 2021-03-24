@@ -40,8 +40,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 <ul>
-   <li> This GIF shows the completion of the game </li>
-<img src="img/game_complete.gif">
+   <li> This GIF shows that the player wins game after succesfully guessing all the patterns</li>
+      <img src="img/game_complete.gif">
+   <li> This GIF shows that the player loses after 3 mistakes</li>
+      <img src="img/game_lost.gif">
+   <li> This GIF shows that the computer picks a different pattern each time the game is played</li>
+      <img src="img/random_pattern.gif">
    </ul>
 
 ## Reflection Questions
