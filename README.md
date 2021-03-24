@@ -49,12 +49,13 @@ Here's a walkthrough of implemented user stories:
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
 
- - The following resources were used for the completion of this project:
+ - The following resources were used to help complete of this project:
    <ul>
    <li>https://www.w3schools.com/</li>
    <li>https://colours.neilorangepeel.com/</li>
    <li>https://coolors.co/</li>
    <li>https://people.virginia.edu/~pdr4h/pitch-freq.html</li>
+   <li>https://ezgif.com/video-to-gif</li>
    </ul>
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
